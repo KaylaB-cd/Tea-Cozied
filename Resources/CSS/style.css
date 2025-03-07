@@ -43,3 +43,35 @@ header {
     padding: 15px;
   }
 
+/* Mission Styles */
+
+.missing {
+  background: url("./img-mission-background.jpg") no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 69px auto 0;
+  height: 500px;
+  max-width: 100%;
+  position: absolute;
+}
+
+.missing-heading {
+  text-shadow: 2px 2px #000;
+}
+
+.missing-item {
+  background-color: #000;
+  text-align: center;
+  width: 12000px;
+}
+
+h2 {
+  padding: 10px 0 20px;
+}
+
+h4 {
+  padding-bottom: 10px;
+}
+
